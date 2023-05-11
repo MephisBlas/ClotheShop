@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClotheShop</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-around">
+                <a class="logo align-items-center py-3" href="#">
+                    <img src="IMG/icon (1).jpg" class="d-inline-block" alt="logo">
+                </a>
+        <nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-around">
+            <div class="">
+                <div class="jutify-content-md-center">
+                    <button class="navbar-toggler collapsed justify-content-sm-center" type="button"
+                        data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                
+                <div class="navbar-collapse justify-content-md-center collapse" id="navbarsExample08">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="H.html">Hombre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="M.html">Mujer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contactanos</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a   class="nav-link text-danger" href="login.html"><i
+                                    class="fas fa-sign-in-alt"></i> <span
+                                    class="d-none d-md-inline-block text-dark">Ingresar</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="registro.html"><i
+                                    class="fas fa-user-plus"></i> <span
+                                    class="d-none d-md-inline-block text-dark">Registrarse</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="#" data-toggle="canvas" data-target="#carroDeCompras"
+                                aria-expanded="false" aria-controls="carroDeCompras"><i
+                                    class="fas fa-shopping-cart"></i> <span class="text-dark">(<span
+                                        id="cartCount">0</span>)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+   
+    <!-- Carrousel -->
+    <section>
+        <div id="carrusel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carrusel" data-slide-to="0" class="active"></li>
+                <li data-target="#carrusel" data-slide-to="1"></li>
+                <li data-target="#carrusel" data-slide-to="2"></li>
+                <li data-target="#carrusel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url('IMG/1.png')">
+                    <div class="carousel-caption d-block">
+                       
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('IMG/2.png')">
+                    <div class="carousel-caption d-block">
+                        
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('IMG/3.png')">
+                    <div class="carousel-caption d-block">
+                        
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image: url('IMG/4.PNG')">
+                    <div class="carousel-caption d-block">
+                        
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carrusel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carrusel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <!-- Carrousel -->
+     <!-- Cart lateral menu -->
+
+
+    <div id="contenido">
+        <div class="productos">
+            <div class="producto">
+                <div class="contenedor">
+                    <img src="IMG/Hombre/Pantalones/a3b06abf9a5c411593a1ae9800ae3e1e_9366.webp" alt="Pantalon_1">
+                    <div class="detalles">
+                        <h5>PANTALÓN AEROREADY SERENO 3</h5>
+                        <h3>$ 55.990</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="contenedor">
+                    <img src="IMG/Hombre/Pantalones/a7ca5f85042e4aa5b580aefb0121490b_9366.webp" alt="Pantalon_2">
+                    <div class="detalles">
+                        <h5>PANTALÓN ADICOLOR PRIMEBLUE SST</h5>
+                        <h3>$ 29.990</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="contenedor">
+                    <img src="IMG/Mujer/Poleras/DX1025_010_A_PREM.webp" alt="Polera_1">
+                    <div class="detalles">
+                        <h5>NIKE SPORTSWEAR ESSENTIAL</h5>
+                        <h3>$ 49.990</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="contenedor">
+                    <img src="IMG/Mujer/Polerones/DQ7110_010_A_PREM.webp" alt="Poleron_1">
+                    <div class="detalles">
+                        <h5>NIKE SPORTSWEAR PHOENIX FLEECE</h5>
+                        <h3>$ 59.990</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="contenedor">
+                    <img src="IMG/Hombre/Polerones/CU4489_016_A_PREM.webp" alt="Poleron_2">
+                    <div class="detalles">
+                        <h5>NIKE SPORTSWEAR CLUB FLEECE</h5>
+                        <h3>$ 89.990</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="producto">
+                <div class="contenedor">
+                    <img src="IMG/Hombre/Poleras/DZ2850_010_A_PREM.webp" alt="Polera_1">
+                    <div class="detalles">
+                        <h5>NIKE SPORTSWEAR PRIMEBLACK</h5>
+                        <h3>$ 19.990</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        
+    </div>
+    
+    <footer>
+        <div class="marcas">
+            <img src="IMG/adidas_logo.png" alt="Nike">
+            <img src="IMG/logo nike.jpg" alt="Adidas">
+        </div>
+        <div class="logo">
+            <img src="IMG/icon.png" alt="logo">
+        </div>
+        <!-- Footer Links -->
+        <div class="container">
+
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row-->
+            <hr class="rgba-white-light" style="margin: 0 15%;">
+            <!-- Grid row-->
+            <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+            <!-- Grid row-->
+            <div class="row p-3">
+                <!-- Grid column -->
+                <div class="col-md-12">
+                    <div class="mb-3 d-flex justify-content-center socialicons">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic" href="facebook.com">
+                            <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic" href="twitter.com">
+                            <i class="fab fa-twitter fa-lg white-text mr-4"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a class="li-ic" href="linkedin.com">
+                            <i class="fab fa-linkedin-in fa-lg white-text mr-4"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic" href="instagram.com">
+                            <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
+                        </a>
+                    </div>
+                </div>
+               
+            </div>
+           
+        </div>
+       
+        
+        <div class="footer-copyright text-center py-3">© 2021 Copyright Technology Moon</div>
+      
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  
+
+</body>
+</html>

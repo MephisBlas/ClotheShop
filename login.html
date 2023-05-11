@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/registro.css">
+    <title>Login</title>
+</head>
+<body>
+    <section id="seccionLogin" class="container-fluid smooth-scroll">
+        <div class="container px-0 p-md-5 py-5" id="formContainer">
+            <div class="card py-4 p-md-5">
+                <div class="card-body text-center">
+                    <h4 class=" display-4 card-title">Ingresar secion</h4>
+                    <p class="card-text">Ingrese sus datos de acceso
+                    </p>
+                </div>
+                <div class="card-body px-m-5 py-md-3">
+                    <form autocomplete="off" id="formularioLog" action="../index.html" method="post">
+                        <p>
+                            <label class="form-check-label" for="lUsuario">Nombre de Usuario*</label>
+                            <input type="text" class="form-control" id="lUsuario"
+                                name="lUsuario" required>
+                        </p>
+                        <p>
+                            <label class="form-check-label" for="lPassword">Password*</label>
+                            <input type="password" class="form-control" id="lPassword" name="lPassword" required>
+                        </p>
+                        <button type="submit" class="btn btn-lg btn-block btn-danger" id="form-btn" value="Enviar"><i
+                                class="fas fa-paper-plane"></i> Ingresar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
