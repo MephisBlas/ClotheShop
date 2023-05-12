@@ -2,7 +2,23 @@
     margin: 0;
     padding: 0;
 }
+#header {
+   position: relative;
+}
 
+.navbar-brand {
+   margin-right: auto; /* Mueve la imagen a la izquierda */
+}
+
+.navbar-nav.ml-auto {
+   margin-left: auto; /* Mueve el registro y el login a la derecha */
+}
+
+.navbar-brand img {
+   position: absolute;
+   top: 0;
+   left: 0;
+}
 header{
     width: 100%;
     height: 80px;
@@ -69,33 +85,54 @@ body{
     padding: 10px;
  }
 
- footer{
-    height: 300px;
-    background-color: #0C0B0B ;
+ footer {
+   background-color: #000000;
+   color: #fff;
+   padding: 30px 0;
  }
-
- footer > .marcas{
-    width: 100%;
-    height: 80px;
-    background-color: #2E2D2C;
-    display: flex;
-    justify-content: space-around;
-    align-items:center;
+ 
+ footer h3 {
+   font-size: 24px;
+   margin-bottom: 20px;
  }
-
- footer> .logo{
-    display: flex;
-    width: auto;
-    justify-content: center;
-    align-items: center;
-    height: calc(100% - 80px);
+ 
+ footer ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
  }
-
- footer >.logo > img{
-    width: 150px;
+ 
+ footer ul li {
+   margin-bottom: 10px;
  }
- footer > .marcas > img{
-   width: 100px;
+ 
+ footer ul li i {
+   margin-right: 10px;
+ }
+ 
+ .social-icons li {
+   display: inline-block;
+   margin-right: 10px;
+ }
+ 
+ .social-icons li:last-child {
+   margin-right: 0;
+ }
+ 
+ .social-icons a {
+   color: #fff;
+ }
+ 
+ .social-icons a:hover {
+   color: #ccc;
+ }
+ 
+ footer hr {
+   border-top-color: #e0e0e0;
+ }
+ 
+ footer p {
+   margin: 0;
  }
 
  .menu{
