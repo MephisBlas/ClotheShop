@@ -5,8 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="CSS/registro.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <title>Login</title>
 </head>
+<header id="header">
+    <nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between">
+      <div class="d-flex align-items-center">
+        <a class="navbar-brand" href="#"><img src="ruta-de-la-imagen" alt="logo"></a>
+        <button class="navbar-toggler collapsed justify-content-sm-center" type="button"
+          data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse justify-content-md-center collapse" id="navbarsExample08">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="H.html">Hombre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="M.html">Mujer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contactanos</a>
+          </li>
+        </ul>
+      </div>
+      <div class="d-flex align-items-center">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link text-danger" href="registro.html"><i class="fas fa-user-plus"></i> <span
+                class="d-none d-md-inline-block text-dark">Registrarse</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-danger" href="login.html"><i class="fas fa-sign-in-alt"></i> <span
+                class="d-none d-md-inline-block text-dark">Ingresar</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-danger" href="#" data-toggle="canvas" data-target="#carroDeCompras"
+              aria-expanded="false" aria-controls="carroDeCompras"><i class="fas fa-shopping-cart"></i> <span
+                class="text-dark">(<span id="cartCount">0</span>)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 <body>
     <section id="seccionLogin" class="container-fluid smooth-scroll">
         <div class="container px-0 p-md-5 py-5" id="formContainer">
@@ -34,6 +82,42 @@
             </div>
         </div>
     </section>
-    
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h3>Nosotros</h3>
+              <p>Somos una empresa dedicada a la comercialización de textiles y prendas de calidad.</p>
+            </div>
+            <div class="col-md-4">
+              <h3>Contacto</h3>
+              <ul>
+                <li><i class="fas fa-phone"></i> (+00) 123 456 789</li>
+                <li><i class="fas fa-envelope"></i> info@miempresa.com</li>
+                <li><i class="fas fa-map-marker-alt"></i> Av. Siempre Viva 123, Springfield</li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h3>Redes Sociales</h3>
+              <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="text-center">&copy; 2023 ClotheShop | Todos los derechos reservados.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+  </script>
 </body>
 </html>
