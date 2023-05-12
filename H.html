@@ -7,146 +7,85 @@
     <link rel="stylesheet" href="css/estilos.css" />
     <link rel="stylesheet" href="css/font.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
   
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <title>Ropa Hombre</title>
   </head>
-  <body
+  <body>
     
-    <!-- Encabezado - Logo - Links superiores -->
-    <header id="header">
-      <img src="IMG/menuiconwhite.png" alt="menu" class="menu" id="menu">
-      <div class="contenedor_logo">
-          <img src="IMG/icon.png" alt="Logo" class="logo">
+  <header id="header">
+    <nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between">
+      <div class="d-flex align-items-center">
+        <a class="navbar-brand" href="index.html"><img src="IMG/icon (1).jpg" alt="logo"></a>
+        <button class="navbar-toggler collapsed justify-content-sm-center" type="button"
+          data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
-      <div>
-          <nav id="nav">
-              <ul>
-                  <li>
-                      <a href=""> Inicio</a>
-                  </li>
-                  <li>
-                      <a href=""> Contacto</a>
-                  </li>
-              </ul>
-          </nav>
+      <div class="navbar-collapse justify-content-md-center collapse" id="navbarsExample08">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="H.html">Hombre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="M.html">Mujer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contactanos</a>
+          </li>
+        </ul>
       </div>
+      <div class="d-flex align-items-center">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link text-danger" href="registro.html"><i class="fas fa-user-plus"></i> <span
+                class="d-none d-md-inline-block text-dark">Registrarse</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-danger" href="login.html"><i class="fas fa-sign-in-alt"></i> <span
+                class="d-none d-md-inline-block text-dark">Ingresar</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-danger" href="#" data-toggle="canvas" data-target="#carroDeCompras"
+              aria-expanded="false" aria-controls="carroDeCompras"><i class="fas fa-shopping-cart"></i> <span
+                class="text-dark">(<span id="cartCount">0</span>)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
 
 
-    <div class="contenido_wrap">
+  <div class="contenido_wrap">
 
-      <section class="row">
-        <article id="Oferta" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-          <div>
-            <h1>Conoce nuestro catálogo </h1>
-            <br>
-            <h1>Polerones</h1>
-          </div>
-          
+    <section class="row">
+      <article id="Oferta" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+        <div>
+          <h1>Conoce nuestro catálogo </h1>
+          <br>
+          <h1>Polerones</h1>
+        </div>
+        
 
 <!-- cartas estilo venta-->
-          <div class="row">
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <a href="semilla1.html">
-                  <img src="img/Mujer/Polerones/po1.png" class="card-img-top" alt="...">
-                </a>
-                <div class="card-body">
-                  <h5 class="card-title">Poleron 1</h5>
-                  <p class="card-text">Descripción Poleron 1.</p>
-                  <h5 class="card-subtitle mb-2 text-muted">$10.99</h5>
-                  <a href="#" class="btn btn-dark">Agregar al carrito</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <a href="semilla2.html">
-                  <img src="img/Mujer/Polerones/po2.png" class="card-img-top" alt="...">
-                </a>
-                <div class="card-body">
-                  <h5 class="card-title">Poleron 2</h5>
-                  <p class="card-text">Descripción Poleron 2.</p>
-                  <h5 class="card-subtitle mb-2 text-muted">$12.99</h5>
-                  <a href="#" class="btn btn-dark">Agregar al carrito</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <a href="semilla3.html">
-                  <img src="img/Mujer/Polerones/po3.png" class="card-img-top" alt="...">
-                </a>
-                <div class="card-body">
-                  <h5 class="card-title">Poleron 3</h5>
-                  <p class="card-text">Descripción Poleron 3.</p>
-                  <h5 class="card-subtitle mb-2 text-muted">$8.99</h5>
-                  <a href="#" class="btn btn-dark">Agregar al carrito</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="row">
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <a href="semilla1.html">
-                  <img src="img/Mujer/Polerones/po4.png" class="card-img-top" alt="...">
-                </a>
-                <div class="card-body">
-                  <h5 class="card-title">Poleron 1</h5>
-                  <p class="card-text">Descripción Poleron 1.</p>
-                  <h5 class="card-subtitle mb-2 text-muted">$10.99</h5>
-                  <a href="#" class="btn btn-dark">Agregar al carrito</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <a href="semilla2.html">
-                  <img src="img/Mujer/Polerones/po5.png" class="card-img-top" alt="...">
-                </a>
-                <div class="card-body">
-                  <h5 class="card-title">Poleron 2</h5>
-                  <p class="card-text">Descripción Poleron 2.</p>
-                  <h5 class="card-subtitle mb-2 text-muted">$12.99</h5>
-                  <a href="#" class="btn btn-dark">Agregar al carrito</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <a href="semilla3.html">
-                  <img src="img/Mujer/Polerones/po6.png" class="card-img-top" alt="...">
-                </a>
-                <div class="card-body">
-                  <h5 class="card-title">Poleron 3</h5>
-                  <p class="card-text">Descripción Poleron 3.</p>
-                  <h5 class="card-subtitle mb-2 text-muted">$8.99</h5>
-                  <a href="#" class="btn btn-dark">Agregar al carrito</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-      <section class="row">
-        <article id="Oferta" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-          <div>
-            <h1>Pantalones</h1>
-          </div>
-        </article>
-
         <div class="row">
           <div class="col-md-4 mb-4">
             <div class="card h-100">
               <a href="semilla1.html">
-                <img src="IMG/Mujer/Pantalones/2e596edc44884006a9cbaef3011a34de_9366.png" class="card-img-top" alt="...">
+                <img src="IMG/Hombre/Polerones/247c128b603447f8b606ab5f0113d987_9366.png" class="card-img-top" alt="...">
               </a>
               <div class="card-body">
-                <h5 class="card-title">Pantalon 1</h5>
-                <p class="card-text">Descripción Pantalon 1.</p>
+                <h5 class="card-title">Poleron 1</h5>
+                <p class="card-text">Descripción Poleron 1.</p>
                 <h5 class="card-subtitle mb-2 text-muted">$10.99</h5>
                 <a href="#" class="btn btn-dark">Agregar al carrito</a>
               </div>
@@ -155,11 +94,11 @@
           <div class="col-md-4 mb-4">
             <div class="card h-100">
               <a href="semilla2.html">
-                <img src="IMG/Mujer/Pantalones/DM6419_025_A_PREM.png" class="card-img-top" alt="...">
+                <img src="img/Hombre/Polerones/345b18dbced64bbc9eeeae3f0125ec2a_9366.png" class="card-img-top" alt="...">
               </a>
               <div class="card-body">
-                <h5 class="card-title">Pantalon 2</h5>
-                <p class="card-text">Descripción Pantalon 2.</p>
+                <h5 class="card-title">Poleron 2</h5>
+                <p class="card-text">Descripción Poleron 2.</p>
                 <h5 class="card-subtitle mb-2 text-muted">$12.99</h5>
                 <a href="#" class="btn btn-dark">Agregar al carrito</a>
               </div>
@@ -168,33 +107,27 @@
           <div class="col-md-4 mb-4">
             <div class="card h-100">
               <a href="semilla3.html">
-                <img src="IMG/Mujer/Pantalones/DM7037_073_A_PREM.png" class="card-img-top" alt="...">
+                <img src="img/Hombre/Polerones/BV2749_063_A_PREM.png" class="card-img-top" alt="...">
               </a>
               <div class="card-body">
-                <h5 class="card-title">Pantalon 3</h5>
-                <p class="card-text">Descripción Pantalon 3.</p>
+                <h5 class="card-title">Poleron 3</h5>
+                <p class="card-text">Descripción Poleron 3.</p>
                 <h5 class="card-subtitle mb-2 text-muted">$8.99</h5>
                 <a href="#" class="btn btn-dark">Agregar al carrito</a>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <section class="row">
-        <article id="Oferta" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-          <div>
-          </div>
-        </article>
-
+        
         <div class="row">
           <div class="col-md-4 mb-4">
             <div class="card h-100">
               <a href="semilla1.html">
-                <img src="IMG/Mujer/Pantalones/DQ6767_667_A_PREM.png" class="card-img-top" alt="...">
+                <img src="img/Hombre/Polerones/cf1b03a8bff94be38481ae4d010fcec8_9366.png" class="card-img-top" alt="...">
               </a>
               <div class="card-body">
-                <h5 class="card-title">Pantalon 1</h5>
-                <p class="card-text">Descripción Pantalon 1.</p>
+                <h5 class="card-title">Poleron 1</h5>
+                <p class="card-text">Descripción Poleron 1.</p>
                 <h5 class="card-subtitle mb-2 text-muted">$10.99</h5>
                 <a href="#" class="btn btn-dark">Agregar al carrito</a>
               </div>
@@ -203,11 +136,11 @@
           <div class="col-md-4 mb-4">
             <div class="card h-100">
               <a href="semilla2.html">
-                <img src="img/Mujer/Pantalones/e90b074232014a54b11daca700e106ee_9366.png" class="card-img-top" alt="...">
+                <img src="img/Hombre/Polerones/CU4489_016_A_PREM.png" class="card-img-top" alt="...">
               </a>
               <div class="card-body">
-                <h5 class="card-title">Pantalon 2</h5>
-                <p class="card-text">Descripción Pantalon 2.</p>
+                <h5 class="card-title">Poleron 2</h5>
+                <p class="card-text">Descripción Poleron 2.</p>
                 <h5 class="card-subtitle mb-2 text-muted">$12.99</h5>
                 <a href="#" class="btn btn-dark">Agregar al carrito</a>
               </div>
@@ -216,131 +149,256 @@
           <div class="col-md-4 mb-4">
             <div class="card h-100">
               <a href="semilla3.html">
-                <img src="IMG/Mujer/Pantalones/f3bd5e0dc67e48bea369aefd00c6b3e6_9366.png" class="card-img-top" alt="...">
+                <img src="img/Hombre/Polerones/DV8839_010_A_PREM.png" class="card-img-top" alt="...">
               </a>
               <div class="card-body">
-                <h5 class="card-title">Pantalon 3</h5>
-                <p class="card-text">Descripción Pantalon 3.</p>
+                <h5 class="card-title">Poleron 3</h5>
+                <p class="card-text">Descripción Poleron 3.</p>
                 <h5 class="card-subtitle mb-2 text-muted">$8.99</h5>
                 <a href="#" class="btn btn-dark">Agregar al carrito</a>
               </div>
             </div>
           </div>
         </div>
-      </section>
 
-      <section class="row">
-        <article id="Oferta" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-          <div>
-            <h1>Poleras</h1>
-          </div>
-        </article>
+    <section class="row">
+      <article id="Oferta" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+        <div>
+          <h1>Pantalones</h1>
+        </div>
+      </article>
 
-        <div class="row">
-          <div class="col-md-4 mb-4">
-            <div class="card h-100">
-              <a href="semilla1.html">
-                <img src="IMG/Mujer/Poleras/p1.png" class="card-img-top" alt="...">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Polera 1</h5>
-                <p class="card-text">Descripción Polera 1.</p>
-                <h5 class="card-subtitle mb-2 text-muted">$10.99</h5>
-                <a href="#" class="btn btn-dark">Agregar al carrito</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card h-100">
-              <a href="semilla2.html">
-                <img src="img/Mujer/Poleras/p2.png" class="card-img-top" alt="...">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Polera 2</h5>
-                <p class="card-text">Descripción Polera 2.</p>
-                <h5 class="card-subtitle mb-2 text-muted">$12.99</h5>
-                <a href="#" class="btn btn-dark">Agregar al carrito</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card h-100">
-              <a href="semilla3.html">
-                <img src="img/Mujer/Poleras/p3.png" class="card-img-top" alt="...">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Polera 3</h5>
-                <p class="card-text">Descripción Polera 3.</p>
-                <h5 class="card-subtitle mb-2 text-muted">$8.99</h5>
-                <a href="#" class="btn btn-dark">Agregar al carrito</a>
-              </div>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <a href="semilla1.html">
+              <img src="IMG/Hombre/Pantalones/a3b06abf9a5c411593a1ae9800ae3e1e_9366.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Pantalon 1</h5>
+              <p class="card-text">Descripción Pantalon 1.</p>
+              <h5 class="card-subtitle mb-2 text-muted">$10.99</h5>
+              <a href="#" class="btn btn-dark">Agregar al carrito</a>
             </div>
           </div>
         </div>
-      </section>
-
-      <section class="row">
-        <article id="Oferta" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-          <div>
-          </div>
-        </article>
-
-        <div class="row">
-          <div class="col-md-4 mb-4">
-            <div class="card h-100">
-              <a href="semilla1.html">
-                <img src="img/Mujer/Poleras/p4.png" class="card-img-top" alt="...">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Pantalon 1</h5>
-                <p class="card-text">Descripción Pantalon 1.</p>
-                <h5 class="card-subtitle mb-2 text-muted">$10.99</h5>
-                <a href="#" class="btn btn-dark">Agregar al carrito</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card h-100">
-              <a href="semilla2.html">
-                <img src="img/Mujer/Poleras/p5.png" class="card-img-top" alt="...">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Pantalon 2</h5>
-                <p class="card-text">Descripción Pantalon 2.</p>
-                <h5 class="card-subtitle mb-2 text-muted">$12.99</h5>
-                <a href="#" class="btn btn-dark">Agregar al carrito</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card h-100">
-              <a href="semilla3.html">
-                <img src="img/Mujer/Poleras/p6.png" class="card-img-top" alt="...">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Pantalon 3</h5>
-                <p class="card-text">Descripción Pantalon 3.</p>
-                <h5 class="card-subtitle mb-2 text-muted">$8.99</h5>
-                <a href="#" class="btn btn-dark">Agregar al carrito</a>
-              </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <a href="semilla2.html">
+              <img src="IMG/Hombre/Pantalones/a7ca5f85042e4aa5b580aefb0121490b_9366.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Pantalon 2</h5>
+              <p class="card-text">Descripción Pantalon 2.</p>
+              <h5 class="card-subtitle mb-2 text-muted">$12.99</h5>
+              <a href="#" class="btn btn-dark">Agregar al carrito</a>
             </div>
           </div>
         </div>
-      </section>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <a href="semilla3.html">
+              <img src="IMG/Hombre/Pantalones/c9248b4822b24c61a8f4af4600fa5b6d_9366.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Pantalon 3</h5>
+              <p class="card-text">Descripción Pantalon 3.</p>
+              <h5 class="card-subtitle mb-2 text-muted">$8.99</h5>
+              <a href="#" class="btn btn-dark">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row">
+      <article id="Oferta" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+        <div>
+        </div>
+      </article>
+
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <a href="semilla1.html">
+              <img src="IMG/Hombre/Pantalones/CW5460_010_A_PREM.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Pantalon 1</h5>
+              <p class="card-text">Descripción Pantalon 1.</p>
+              <h5 class="card-subtitle mb-2 text-muted">$10.99</h5>
+              <a href="#" class="btn btn-dark">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <a href="semilla2.html">
+              <img src="img/Hombre/Pantalones/DQ4257_072_A_PREM.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Pantalon 2</h5>
+              <p class="card-text">Descripción Pantalon 2.</p>
+              <h5 class="card-subtitle mb-2 text-muted">$12.99</h5>
+              <a href="#" class="btn btn-dark">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <a href="semilla3.html">
+              <img src="IMG/Hombre/Pantalones/DQ5405_063_A_PREM.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Pantalon 3</h5>
+              <p class="card-text">Descripción Pantalon 3.</p>
+              <h5 class="card-subtitle mb-2 text-muted">$8.99</h5>
+              <a href="#" class="btn btn-dark">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="row">
+      <article id="Oferta" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+        <div>
+          <h1>Poleras</h1>
+        </div>
+      </article>
+
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <a href="semilla1.html">
+              <img src="IMG/Hombre/Poleras/4232d85773d5482f8d66ad04012dff87_9366.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Polera 1</h5>
+              <p class="card-text">Descripción Polera 1.</p>
+              <h5 class="card-subtitle mb-2 text-muted">$10.99</h5>
+              <a href="#" class="btn btn-dark">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <a href="semilla2.html">
+              <img src="img/Hombre/Poleras/a06013ad5adb4352b78cafc6018624fa_9366.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Polera 2</h5>
+              <p class="card-text">Descripción Polera 2.</p>
+              <h5 class="card-subtitle mb-2 text-muted">$12.99</h5>
+              <a href="#" class="btn btn-dark">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <a href="semilla3.html">
+              <img src="img/Hombre/Poleras/AR5006_011_A_PREM.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Polera 3</h5>
+              <p class="card-text">Descripción Polera 3.</p>
+              <h5 class="card-subtitle mb-2 text-muted">$8.99</h5>
+              <a href="#" class="btn btn-dark">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="row">
+      <article id="Oferta" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+        <div>
+        </div>
+      </article>
+
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <a href="semilla1.html">
+              <img src="img/Hombre/Poleras/b13deb38eb154db1a631aaed0118b3c2_9366.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Pantalon 1</h5>
+              <p class="card-text">Descripción Pantalon 1.</p>
+              <h5 class="card-subtitle mb-2 text-muted">$10.99</h5>
+              <a href="#" class="btn btn-dark">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <a href="semilla2.html">
+              <img src="img/Hombre/Poleras/b13deb38eb154db1a631aaed0118b3c2_9366.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Pantalon 2</h5>
+              <p class="card-text">Descripción Pantalon 2.</p>
+              <h5 class="card-subtitle mb-2 text-muted">$12.99</h5>
+              <a href="#" class="btn btn-dark">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <a href="semilla3.html">
+              <img src="img/Hombre/Poleras/DZ2850_010_A_PREM.png" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Pantalon 3</h5>
+              <p class="card-text">Descripción Pantalon 3.</p>
+              <h5 class="card-subtitle mb-2 text-muted">$8.99</h5>
+              <a href="#" class="btn btn-dark">Agregar al carrito</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
         
-      <footer>
-        <div class="marcas">
-            <img src="IMG/adidas_logo.png" alt="Nike">
-            <img src="IMG/logo nike.jpg" alt="Adidas">
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Nosotros</h3>
+            <p>Somos una empresa dedicada a la comercialización de textiles y prendas de calidad.</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Contacto</h3>
+            <ul>
+              <li><i class="fas fa-phone"></i> (+00) 123 456 789</li>
+              <li><i class="fas fa-envelope"></i> info@miempresa.com</li>
+              <li><i class="fas fa-map-marker-alt"></i> Av. Siempre Viva 123, Springfield</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3>Redes Sociales</h3>
+            <ul class="social-icons">
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
         </div>
-        <div class="logo">
-            <img src="IMG/icon.png" alt="logo">
+        <hr>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="text-center">&copy; 2023 ClotheShop | Todos los derechos reservados.</p>
+          </div>
         </div>
+      </div>
     </footer>
 
 
     <script src="js/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+</script>
 
 </body>
 </html>
+
