@@ -213,3 +213,16 @@ input[type="submit"] {
 input[type="submit"]:hover {
 	background-color: #45a049;
 }
+body {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+ }
+ 
+ #seccionLogin {
+   flex: 1;
+ }
+ 
+ footer {
+   margin-top: auto;
+ }
