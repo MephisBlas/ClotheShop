@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="CSS/estilos.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
 <header id="header">
     <nav class="navbar navbar-expand-lg navbar-dark d-flex justify-content-between">
       <div class="d-flex align-items-center">
-        <a class="navbar-brand" href="#"><img src="ruta-de-la-imagen" alt="logo"></a>
+        <a class="navbar-brand" href="index.html"><img src="IMG/icon (1).jpg" alt="logo"></a>
         <button class="navbar-toggler collapsed justify-content-sm-center" type="button"
           data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08"
           aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +21,7 @@
       <div class="navbar-collapse justify-content-md-center collapse" id="navbarsExample08">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="H.html">Hombre</a>
@@ -53,20 +54,49 @@
     </nav>
   </header>
 
-<body>
-	<form>
-		<h2>Registro de usuario</h2>
-		<label for="nombre">Nombre:</label>
-		<input type="text" id="nombre" name="nombre" required>
-		<label for="apellido">Apellido:</label>
-		<input type="text" id="apellido" name="apellido" required>
-		<label for="email">Correo electrónico:</label>
-		<input type="email" id="email" name="email" required>
-		<label for="password">Contraseña:</label>
-		<input type="password" id="password" name="password" required>
-		<input type="submit" value="Registrarse">
-	</form>
-</body>
+  <section id="seccionRegistro" class="container-fluid smooth-scroll">
+    <div class="container px-0 p-md-5 py-5" id="formContainer">
+        <div class="card py-4 p-md-5">
+            <div class="card-body text-center">
+                <h4 class=" display-4 card-title">Registrarse</h4>
+                <p class="card-text">Complete el siguiente formulario de registro
+                </p>
+            </div>
+            <div class="card-body px-m-5 py-md-3">
+                <form autocomplete="off" id="formularioReg" action="../index.html" method="post">
+                    <p>
+                        <label class="form-check-label" for="rUsuario">Nombre de Usuario*</label>
+                        <input type="text" class="form-control" id="rUsuario"
+                            name="rUsuario" required>
+                    </p>
+                    <p>
+                        <label class="form-check-label" for="rPassword">Password*</label>
+                        <input type="password" class="form-control" id="rPassword" name="rPassword" required>
+                    </p>
+                    <p>
+                        <label class="form-check-label" for="rPassword2">Reingrese su Password*</label>
+                        <input type="password" class="form-control" id="rPassword2" name="rPassword2" required>
+                    </p>
+                    <p>
+                        <label class="form-check-label" for="rNombres">Nombres*</label>
+                        <input type="text" class="form-control" id="rNombres" name="rNombres" required>
+                    </p>
+                    <p>
+                        <label class="form-check-label" for="rApellidos">Apellidos*</label>
+                        <input type="text" class="form-control" id="rApellidos" name="rApellidos" required>
+                    </p>
+                    <p>
+                        <label class="form-check-label" for="rCorreo">Nombre de Usuario*</label>
+                        <input type="email" class="form-control" placeholder="pepito@correo.com" id="rCorreo"
+                            name="rCorreo" required>
+                    </p>
+                    <button type="submit" class="btn btn-lg btn-block btn-dark" id="form-btn" value="Enviar"><i
+                            class="fas fa-paper-plane"></i> Registrar </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
 <footer>
     <div class="container">
       <div class="row">
